@@ -5,8 +5,9 @@ Version:	19991105
 Release:	1
 Vendor:		James Clark
 License:	Free
-Group:		Applications/Publishing/XML
-Group(pl):	Aplikacje/Publikowanie/XML
+Group:		Applications/Publishing/XML/Java
+Group(de):	Applikationen/Publizieren/XML/Java
+Group(pl):	Aplikacje/Publikowanie/XML/Java
 URL:		http://www.jclark.com/xml
 Source0:	ftp://ftp.jclark.com/pub/xml/%{name}.zip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
