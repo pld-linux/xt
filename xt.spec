@@ -13,6 +13,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 # this is not exactly true but I'd better add this ...
 Requires:	xp
+Requires:	java
 
 %define	_javaclassdir	%{_datadir}/java/classes
 %define	_jredir		%{_libdir}/jre
