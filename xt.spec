@@ -15,6 +15,7 @@ BuildArch:	noarch
 Requires:	xp
 
 %define	_javaclassdir	%{_datadir}/java/classes
+%define	_jredir		%{_libdir}/jre
 
 %description
 XT is an implementation in Java of XSL Transformations. 
@@ -28,10 +29,11 @@ XT to implementacja XSLT napisana w Javie.
 unzip -qa %{SOURCE0}
 chmod -R a+rX *
 
+
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d 	$RPM_BUILD_ROOT%{_javaclassdir}
-install *.jar 	$RPM_BUILD_ROOT%{_javaclassdir}
+install -d $RPM_BUILD_ROOT%{_javaclassdir}
+install %{name}.jar $RPM_BUILD_ROOT%{_javaclassdir}
 
 gzip -9nf copying.txt
 
