@@ -35,12 +35,10 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_javaclassdir}
 install %{name}.jar $RPM_BUILD_ROOT%{_javaclassdir}
 
-gzip -9nf copying.txt
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz demo *.htm
+%doc copying.txt demo *.htm
 %{_javaclassdir}/*
