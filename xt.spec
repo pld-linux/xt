@@ -11,6 +11,8 @@ URL:		http://www.jclark.com/xml
 Source0:	ftp://ftp.jclark.com/pub/xml/%{name}.zip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
+# this is not exactly true but I'd better add this ...
+Requires:	xp
 
 %define	_javaclassdir	%{_datadir}/java/classes
 
