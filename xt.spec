@@ -8,6 +8,7 @@ License:	Free
 Group:		Applications/Publishing/XML/Java
 URL:		http://www.jclark.com/xml
 Source0:	ftp://ftp.jclark.com/pub/xml/%{name}.zip
+# Source0-md5:	2ac9973f7f9cb2a480af94066f89568a
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 # this is not exactly true but I'd better add this ...
