@@ -18,14 +18,14 @@ Requires:	jre
 %define	_jredir		%{_libdir}/jre
 
 %description
-XT is an implementation in Java of XSL Transformations. 
-This version of XT implements the PR-xslt-19991008 version of XSLT.
+XT is an implementation in Java of XSL Transformations. This version
+of XT implements the PR-xslt-19991008 version of XSLT.
 
-%description -l pl 
+%description -l pl
 XT to implementacja XSLT napisana w Javie.
 
 %prep
-%setup -q -c -T 
+%setup -q -c -T
 unzip -qa %{SOURCE0}
 chmod -R a+rX *
 
