@@ -10,6 +10,7 @@ Source0:	ftp://ftp.jclark.com/pub/xml/%{name}.zip
 # Source0-md5:	2ac9973f7f9cb2a480af94066f89568a
 URL:		http://www.jclark.com/xml/
 # this is not exactly true but I'd better add this ...
+BuildRequires:	unzip
 Requires:	xp
 Requires:	jre
 BuildArch:	noarch
