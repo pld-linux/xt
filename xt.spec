@@ -1,5 +1,5 @@
 Summary:	XSLT Processor in Java
-Summary(pl):	Procesor XSLT napisany w Javie
+Summary(pl.UTF-8):   Procesor XSLT napisany w Javie
 Name:		xt
 Version:	19991105
 Release:	1
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 XT is an implementation in Java of XSL Transformations. This version
 of XT implements the PR-xslt-19991008 version of XSLT.
 
-%description -l pl
+%description -l pl.UTF-8
 XT to implementacja XSLT napisana w Javie. Ta wersja XT implementuje
 XSLT w wersji PR-xslt-19991008.
 
