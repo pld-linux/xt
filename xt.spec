@@ -1,5 +1,5 @@
 Summary:	XSLT Processor in Java
-Summary(pl.UTF-8):   Procesor XSLT napisany w Javie
+Summary(pl.UTF-8):	Procesor XSLT napisany w Javie
 Name:		xt
 Version:	19991105
 Release:	1
