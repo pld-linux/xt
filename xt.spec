@@ -2,7 +2,7 @@ Summary:	XSLT Processor in Java
 Summary(pl.UTF-8):	Procesor XSLT napisany w Javie
 Name:		xt
 Version:	19991105
-Release:	1
+Release:	2
 Vendor:		James Clark
 License:	Free
 Group:		Applications/Publishing/XML/Java
@@ -16,7 +16,7 @@ Requires:	jre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_javaclassdir	%{_datadir}/java/classes
+%define		_javaclassdir	%{_datadir}/java
 %define		_jredir		%{_libdir}/jre
 
 %description
