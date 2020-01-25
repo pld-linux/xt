@@ -1,6 +1,5 @@
 # TODO
 # - try building it
-%include	/usr/lib/rpm/macros.java
 Summary:	XSLT Processor in Java
 Summary(pl.UTF-8):	Procesor XSLT napisany w Javie
 Name:		xt
